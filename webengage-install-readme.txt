@@ -30,7 +30,8 @@ catalog/view/theme/[default]/template/module/webengage.tpl
 
 = Setup =
 **** 
-  Visit YOursiteurl/vqmod/install
+  Set proper file permissions for the folders 
+  Visit YOursiteurl/vqmod/install  Note:(if file permission are not proper you might get an error)
   e.g www.yoursite.com/vqmod/install
  (this step installs 'virtual quick mode library' for php, without this webengage will not work)
 

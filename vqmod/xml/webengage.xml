@@ -28,7 +28,7 @@
       </operation>
    </file>
    
-   <file name="catalog/view/theme/*/default/template/common/header.tpl">
+   <file name="catalog/view/theme/*/template/common/header.tpl">
       <operation info="Replace the css property in heading title in Home page">
          <search position="top"><![CDATA[<?php foreach ($products as $product) { ?>]]></search>
          <add><![CDATA[
@@ -42,7 +42,7 @@
           else{ ?>
           <script id="_webengage_script_tag" type="text/javascript">
   var _weq = _weq || {};
-  _weq['webengage.licenseCode'] = '<?php echo $license_code; ?>';
+  _weq['webengage.licenseCode'] = '<?php echo $licenseCode; ?>';
   _weq['webengage.widgetVersion'] = "4.0";
   
   (function(d){
